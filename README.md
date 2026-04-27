@@ -1,33 +1,41 @@
-# Elijah Bey · @ebey317
+### Hi, I'm Elijah W. Sr.
 
-> **Master AI is for anyone who has ever asked ChatGPT Claude or Google Gemini a question and it responded paste this in your terminal.**
+**Free thinking garage scientist.** I build two coordinated bodies of work.
+
+> Master AI is for anyone who has ever asked ChatGPT, Claude, or Google Gemini a question and it responded *paste this in your terminal.*
 
 ---
 
-## Master AI — the genius right next to you
+#### 🛠 Master AI — private AI that does the terminal work for you
 
-One brand, two faces, one local brain:
+Plain English in. Commands run for you. Lives on your hardware, never asks permission to phone home.
 
-- **Sensei** — terminal AI with voice, arrow-key menus, and a mode gate that stops before destructive commands. Built for hands-free operation from a phone over tmux.
-- **Pupil** — browser skin of the same brain. Same memory, same voice, any device on your private network.
+- 🥷 **Sensei** — local AI that lives in your terminal. Plans, codes, runs commands with your approval.
+- 🦉 **Pupil** — browser interface for the same brain. Same memory, different surface.
+- Local Ollama, no subscription, no vendor lock.
 
-Runs on hardware you already own. Local by default. Cloud only when you ask for it. No subscription, no API keys you don't own, no "this feature requires Pro."
+**$100. One time. Yours forever.**
 
-<!-- Replace with real screenshots once the repo has a /docs folder -->
-<!-- ![Sensei](./docs/sensei_demo.png) -->
-<!-- ![Pupil](./docs/pupil_demo.png) -->
+#### 📓 BIOVEGA — Living Sustainably
 
-## Building in public
+Multi-volume technical field manual on off-grid systems built from common materials and waste resources. Volume I — Core Systems covers fuel, gas, heat, materials, and basic power.
 
-I'm shipping Master AI code to public repos as each piece stabilizes. Follow this profile to see them land.
+*No survival fantasy. No bug-out guide. No shortcut around safety. Foundations before features.*
 
-Core principle: if a feature can't be driven by arrow keys from a tmux pane over a phone connection, it isn't shipped.
+#### 🌱 Open source
 
-## Looking for
+I contribute back to upstream projects when I touch them. Currently improving LibreOffice's [Loki AI extension](https://gitlab.com/maik3531/LibreOffice_KI-Assistent) — multi-tab chat, Make Doc export with QR codes, guided Doc Plan intake mode.
 
-**Testers who like rough edges.** Master AI is in active development. If you want polish, come back in a month. If you want to watch a local-first AI get real and help shape it, open an issue on any Master AI repo when they go public — or email me in the meantime.
+---
 
-## Contact
+#### About me
 
-- `ebey317@gmail.com`
-- Issues on public repos once they ship
+I don't think of myself as a developer. I'm a maker. A developer publishes the codebase; a garage scientist ships the thing that works in your garage and explains how to fix it when it doesn't.
+
+> "I'm not using the computer, I'm programming it."
+
+Indianapolis, Indiana. Linux Mint live USB — the whole product is portable by design. Reachable at **ebey317@gmail.com**.
+
+---
+
+**Tools to think with. Systems to live with.**
