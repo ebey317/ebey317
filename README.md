@@ -2,7 +2,7 @@
 
 **Free thinking garage scientist.** I build two coordinated bodies of work.
 
-> Master AI is for anyone who has ever asked ChatGPT, Claude, or Google Gemini a question and it responded *paste this in your terminal.*
+> Master AI is for anyone who has ever asked ChatGPT Claude or Google Gemini a question and it responded paste this in your terminal.
 
 ---
 
@@ -21,10 +21,6 @@ Plain English in. Commands run for you. Lives on your hardware, never asks permi
 Multi-volume technical field manual on off-grid systems built from common materials and waste resources. Volume I — Core Systems covers fuel, gas, heat, materials, and basic power.
 
 *No survival fantasy. No bug-out guide. No shortcut around safety. Foundations before features.*
-
-#### 🌱 Open source
-
-I contribute back to upstream projects when I touch them. Currently improving LibreOffice's [Loki AI extension](https://gitlab.com/maik3531/LibreOffice_KI-Assistent) — multi-tab chat, Make Doc export with QR codes, guided Doc Plan intake mode.
 
 ---
 
