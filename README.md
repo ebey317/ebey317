@@ -1,37 +1,35 @@
-### Hi, I'm Elijah W. Sr.
+### Elijah Wilkins — AI Systems Builder
 
-**Free thinking garage scientist.** I build two coordinated bodies of work.
+**Self-taught. Local-first. Off-grid by design.**
 
-> Master AI is for anyone who has ever asked ChatGPT Claude or Google Gemini a question and it responded paste this in your terminal.
+I build infrastructure for running AI privately on your own hardware — not apps that require a subscription or an internet connection to think.
 
 ---
 
-#### 🛠 Master AI — private AI that does the terminal work for you
+#### What I build
 
-Plain English in. Commands run for you. Lives on your hardware, never asks permission to phone home.
+**[CLAF — Closed-Loop Agent Framework](https://github.com/ebey317/claf)**
+A FastAPI proxy that intercepts Anthropic's API format and routes LLM calls across tiers: local Ollama first, free cloud APIs second, paid APIs only when necessary. Off-grid mode is the default — the cloud path literally isn't constructed at import time unless you opt in.
 
-- 🥷 **Sensei** — local AI that lives in your terminal. Plans, codes, runs commands with your approval.
-- 🦉 **Pupil** — browser interface for the same brain. Same memory, different surface.
-- Local Ollama, no subscription, no vendor lock.
+- Local Ollama proxy (`/v1/messages` → Ollama chat format translation)
+- Tier-based routing: local → free cloud → paid cloud based on task complexity signals
+- Off-grid lock: `423 Locked` if anything tries to route to cloud while in off-grid mode
+- Hard budget ceiling, token tracking, and cost-aware escalation
 
-**$100. One time. Yours forever.**
+**Master AI — Private AI stack that runs on your hardware**
+Full agent loop with browser control, terminal execution, memory, and multi-model orchestration. Runs on a Linux laptop. Doesn't phone home.
 
-#### 📓 BIOVEGA — Living Sustainably
-
-Multi-volume technical field manual on off-grid systems built from common materials and waste resources. Volume I — Core Systems covers fuel, gas, heat, materials, and basic power.
-
-*No survival fantasy. No bug-out guide. No shortcut around safety. Foundations before features.*
+- Hook system for pre/post tool enforcement (retry policy, auth visibility, routing guards)
+- MCP-native browser automation (CDP-based, no Chrome extension dependency)
+- Cross-session memory with typed entries (user / project / feedback / reference)
+- Multi-agent planner/executor split to control API cost
 
 ---
 
 #### About me
 
-I don't think of myself as a developer. I'm a maker. A developer publishes the codebase; a garage scientist ships the thing that works in your garage and explains how to fix it when it doesn't.
+No CS degree. Started with "paste this in your terminal" and built from there. The whole stack is on Linux Mint, portable on a USB drive.
 
-> "I'm not using the computer, I'm programming it."
+I don't chase the newest model — I build the wiring that makes any model useful.
 
-Indianapolis, Indiana. Linux Mint live USB — the whole product is portable by design. Reachable at **ebey317@gmail.com**.
-
----
-
-**Tools to think with. Systems to live with.**
+Indianapolis, Indiana · ebey317@gmail.com
