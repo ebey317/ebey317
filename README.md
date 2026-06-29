@@ -1,35 +1,59 @@
-### Elijah Wilkins — AI Systems Builder
+# Elijah Wilkins
 
-**Self-taught. Local-first. Off-grid by design.**
+**AI Systems Builder | Local-First Architecture | Python & FastAPI**
 
-I build infrastructure for running AI privately on your own hardware — not apps that require a subscription or an internet connection to think.
+[![GitHub](https://img.shields.io/badge/GitHub-ebey317-blue?logo=github)](https://github.com/ebey317)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elijah%20Wilkins-blue?logo=linkedin)](https://www.linkedin.com/in/elijah-wilkins)
 
----
-
-#### What I build
-
-**[CLAF — Closed-Loop Agent Framework](https://github.com/ebey317/claf)**
-A FastAPI proxy that intercepts Anthropic's API format and routes LLM calls across tiers: local Ollama first, free cloud APIs second, paid APIs only when necessary. Off-grid mode is the default — the cloud path literally isn't constructed at import time unless you opt in.
-
-- Local Ollama proxy (`/v1/messages` → Ollama chat format translation)
-- Tier-based routing: local → free cloud → paid cloud based on task complexity signals
-- Off-grid lock: `423 Locked` if anything tries to route to cloud while in off-grid mode
-- Hard budget ceiling, token tracking, and cost-aware escalation
-
-**Master AI — Private AI stack that runs on your hardware**
-Full agent loop with browser control, terminal execution, memory, and multi-model orchestration. Runs on a Linux laptop. Doesn't phone home.
-
-- Hook system for pre/post tool enforcement (retry policy, auth visibility, routing guards)
-- MCP-native browser automation (CDP-based, no Chrome extension dependency)
-- Cross-session memory with typed entries (user / project / feedback / reference)
-- Multi-agent planner/executor split to control API cost
+Self-taught engineer building infrastructure for running AI privately on your own hardware. No subscriptions, no cloud dependency, no phone-home. Local-first and off-grid by design. I don't chase the newest model — I build the wiring that makes any model useful.
 
 ---
 
-#### About me
+## Pinned Projects
 
-No CS degree. Started with "paste this in your terminal" and built from there. The whole stack is on Linux Mint, portable on a USB drive.
+### [CLAF — Closed-Loop Agent Framework](https://github.com/ebey317/claf)
+A FastAPI proxy that routes LLM calls across tiers: local Ollama first, free cloud APIs second, paid APIs only when necessary. Off-grid mode is the default.
+- Tier-based routing with cost-aware escalation
+- Off-grid lock (423 Locked) prevents cloud calls unless explicitly enabled
+- Hard budget ceiling and token tracking
+- MCP-native browser automation
 
-I don't chase the newest model — I build the wiring that makes any model useful.
+### [AI Controller](https://github.com/ebey317/ai-controller-profile)
+Xbox controller to keyboard/mouse/voice mapping for desktop accessibility. Push-to-talk STT, on-screen keyboard, TTS voice bridge, and floating HUD legend.
+- AntiMicroX profile with full button remapping
+- Groq Whisper STT pipeline via F13 trigger
+- Piper TTS with multiple voice packs
+- Slide-out on-screen keyboard with dictation modes
 
-Indianapolis, Indiana · ebey317@gmail.com
+### [Fair Chance](https://github.com/ebey317/fairchance)
+Job pipeline that searches, screens, and applies to fair-chance employer postings automatically. Built for justice-impacted job seekers.
+- Screening pipeline with fair-chance employer filtering
+- Multi-agent orchestration (search, filter, apply, credit)
+- Facebook Messenger bot for job alerts
+
+---
+
+## Tech Stack
+
+| Area | Tools |
+|------|-------|
+| Languages | Python, Bash, Shell, HTML |
+| AI/ML | Ollama, Anthropic API, Groq, OpenRouter, Cerebras |
+| Frameworks | FastAPI, Gtk3, PyGObject |
+| Infrastructure | Linux Mint, systemd, Tailscale, MCP |
+| Voice/STT | Piper TTS, Groq Whisper, PulseAudio, mpv |
+| Automation | AntiMicroX, xdotool, xtest, CDP browser control |
+
+---
+
+## GitHub Stats
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ebey317&show_icons=true&theme=dark&hide_border=true)](https://github.com/ebey317)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ebey317&layout=compact&theme=dark&hide_border=true)](https://github.com/ebey317)
+
+---
+
+## Contact
+
+Indianapolis, Indiana
+ebey317@gmail.com
