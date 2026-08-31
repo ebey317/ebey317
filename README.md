@@ -25,7 +25,7 @@ Xbox controller to keyboard/mouse/voice mapping for desktop accessibility. Push-
 - Piper TTS with multiple voice packs
 - Slide-out on-screen keyboard with dictation modes
 
-### [Fair Chance](https://github.com/ebey317/fairchance)
+### Fair Chance *(private build — demo on request)*
 Job pipeline that searches, screens, and applies to fair-chance employer postings automatically. Built for justice-impacted job seekers.
 - Screening pipeline with fair-chance employer filtering
 - Multi-agent orchestration (search, filter, apply, credit)
