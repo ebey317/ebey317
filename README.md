@@ -1,48 +1,73 @@
 # Elijah Wilkins
 
-**AI Systems Builder | Local-First Architecture | Python & FastAPI**
+> Applied AI Engineer — local-first agent infrastructure, voice/HCI automation, and developer tooling.
 
-[![GitHub](https://img.shields.io/badge/GitHub-ebey317-blue?logo=github)](https://github.com/ebey317)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elijah%20Wilkins-blue?logo=linkedin)](https://www.linkedin.com/in/elijah-wilkins)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ebey317.github.io-2ea44f?logo=github)](https://ebey317.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-ebey317-181717?logo=github)](https://github.com/ebey317)
+[![Email](https://img.shields.io/badge/Email-ebey317%40gmail.com-D14836?logo=gmail)](mailto:ebey317@gmail.com)
 
-Self-taught engineer building infrastructure for running AI privately on your own hardware. No subscriptions, no cloud dependency, no phone-home. Local-first and off-grid by design. I don't chase the newest model — I build the wiring that makes any model useful.
+I build **local-first AI agents that safely operate machines**. My work sits at the intersection of agent runtimes, multi-provider model routing, desktop accessibility, and human-computer interaction — all designed to run on the user's own hardware with their own API keys.
+
+- **Agent infrastructure:** multi-provider routing, MCP tool protocol, memory, subagents, safety/approval layers, headless delegation
+- **Voice & HCI automation:** push-to-talk STT, TTS, on-screen keyboard, controller-driven desktop control, HUD overlays
+- **Systems/integration focus:** Linux services, systemd, browser automation, local model inference, cloud fallback strategies
+
+I'm self-taught — HVAC engineer by background, systems builder by practice. I build tools that solve real gaps: offline-capable agents, accessible desktop input, and infrastructure that doesn't require a subscription.
 
 ---
 
-## Pinned Projects
+## Flagship Projects
+
+### [Master AI CLI](https://github.com/ebey317/master-ai-cli)
+A local-first AI agent runtime with multi-provider routing, MCP tooling, browser automation, voice/vision, subagents, and a safety layer.
+
+- ~43K lines Python, 57 test files, terminal + browser extension surfaces
+- Routes between Ollama (local) and OpenRouter / Groq / Gemini / Anthropic / OpenAI (cloud)
+- Headless delegation mode for CI and agent orchestration
+- Approval queue, typed action dispatch, and privacy-cloud guard
+
+### [AI Controller](https://github.com/ebey317/ai-controller)
+Voice-first desktop accessibility for Linux. Control the entire desktop with an Xbox controller — no keyboard, no mouse required.
+
+- Push-to-talk speech-to-text via Groq Whisper
+- GTK floating on-screen keyboard and controller legend HUD
+- FastAPI voice bridge for STT/TTS on `:8002`
+- Auto profile switching and systemd-managed services
 
 ### [CLAF — Closed-Loop Agent Framework](https://github.com/ebey317/claf)
-A FastAPI proxy that routes LLM calls across tiers: local Ollama first, free cloud APIs second, paid APIs only when necessary. Off-grid mode is the default.
-- Tier-based routing with cost-aware escalation
-- Off-grid lock (423 Locked) prevents cloud calls unless explicitly enabled
-- Hard budget ceiling and token tracking
-- MCP-native browser automation
+A FastAPI proxy that routes Claude Code CLI calls to local Ollama first, with selective cloud escalation.
 
-### [AI Controller](https://github.com/ebey317/ai-controller-profile)
-Xbox controller to keyboard/mouse/voice mapping for desktop accessibility. Push-to-talk STT, on-screen keyboard, TTS voice bridge, and floating HUD legend.
-- AntiMicroX profile with full button remapping
-- Groq Whisper STT pipeline via F13 trigger
-- Piper TTS with multiple voice packs
-- Slide-out on-screen keyboard with dictation modes
+- Off-grid mode prevents cloud calls unless explicitly enabled
+- Charter injection, persistent task state, permission-mode sync
+- Multi-provider cloud tiers: Anthropic, OpenRouter, Groq, Cerebras, Fireworks
 
-### Fair Chance *(private build — demo on request)*
-Job pipeline that searches, screens, and applies to fair-chance employer postings automatically. Built for justice-impacted job seekers.
-- Screening pipeline with fair-chance employer filtering
-- Multi-agent orchestration (search, filter, apply, credit)
-- Facebook Messenger bot for job alerts
+### [us211-api](https://github.com/ebey317/us211-api)
+An open, HSDS-shaped REST API + assistant for 2-1-1 health and human services data across the US.
+
+- Federates ~200 local/state services behind one unified API
+- Assistant actions: summarize, read aloud, print, email, pinpoint documents, fill forms
+- Built as a tool for AI agents rather than a standalone app
+
+### [reentry-desk](https://github.com/ebey317/reentry-desk)
+An MCP server + HTTP bridge for managing client intake and form completion across reentry programs.
+
+- JSON-based profiles and templates — no database required
+- Browser autofill handoff payload
+- Optional REST bridge for web UI integration
 
 ---
 
 ## Tech Stack
 
 | Area | Tools |
-|------|-------|
-| Languages | Python, Bash, Shell, HTML |
-| AI/ML | Ollama, Anthropic API, Groq, OpenRouter, Cerebras |
-| Frameworks | FastAPI, Gtk3, PyGObject |
-| Infrastructure | Linux Mint, systemd, Tailscale, MCP |
-| Voice/STT | Piper TTS, Groq Whisper, PulseAudio, mpv |
-| Automation | AntiMicroX, xdotool, xtest, CDP browser control |
+|---|---|
+| Languages | Python, Bash, JavaScript, HTML |
+| Agent stack | Ollama, OpenRouter, Groq, Anthropic, Gemini, OpenAI |
+| Frameworks | FastAPI, GTK3, PyGObject, Flask |
+| Protocols | MCP, CDP, systemd, native messaging |
+| Voice/audio | Piper TTS, edge-tts, Groq Whisper, PulseAudio |
+| Desktop automation | AntiMicroX, xdotool, xtest, pynput |
+| Deployment | Linux, systemd, Tailscale, GitHub Pages |
 
 ---
 
@@ -55,5 +80,7 @@ Job pipeline that searches, screens, and applies to fair-chance employer posting
 
 ## Contact
 
-Indianapolis, Indiana
-ebey317@gmail.com
+- Indianapolis, Indiana
+- ebey317@gmail.com
+- Portfolio: [ebey317.github.io](https://ebey317.github.io)
+- GitHub: [@ebey317](https://github.com/ebey317)
