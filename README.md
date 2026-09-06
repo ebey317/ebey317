@@ -57,6 +57,17 @@ An MCP server + HTTP bridge for managing client intake and form completion acros
 
 ---
 
+## Certifications
+
+- **Claude 101** — Anthropic (May 2026)
+- **Claude Code 101** — Anthropic (May 2026)
+- **Introduction to Claude Cowork** — Anthropic (May 2026)
+- **AI Fluency: Framework & Foundations** — Anthropic, co-badged UCC / Ringling College of Art + Design / HEA / National Forum (May 2026)
+
+Full records: [ebey317/cert-path](https://github.com/ebey317/cert-path)
+
+---
+
 ## Tech Stack
 
 | Area | Tools |
