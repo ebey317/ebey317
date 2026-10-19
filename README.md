@@ -5,6 +5,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-ebey317.github.io-2ea44f?logo=github)](https://ebey317.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-ebey317-181717?logo=github)](https://github.com/ebey317)
 [![Email](https://img.shields.io/badge/Email-ebey317%40gmail.com-D14836?logo=gmail)](mailto:ebey317@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-%28317%29%20762--0979-2ea44f)](tel:+13177620979)
 
 I build **local-first AI agents that safely operate machines**. My work sits at the intersection of agent runtimes, multi-provider model routing, desktop accessibility, and human-computer interaction — all designed to run on the user's own hardware with their own API keys.
 
@@ -95,3 +96,4 @@ Full records: [ebey317/cert-path](https://github.com/ebey317/cert-path)
 - ebey317@gmail.com
 - Portfolio: [ebey317.github.io](https://ebey317.github.io)
 - GitHub: [@ebey317](https://github.com/ebey317)
+- 📞 (317) 762-0979 — call or text
